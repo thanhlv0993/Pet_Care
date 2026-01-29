@@ -73,6 +73,11 @@ a {
 
 /* =============  Hero  ============ */
 
+.hero {
+    margin-top: 100px;
+    padding-bottom: 77px;
+}
+
 .hero .content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -80,7 +85,8 @@ a {
 }
 
 .hero .hero__img {
-    margin-bottom: 77px;
+    height: 582px;
+    position: relative;
 }
 
 .hero__img--main {
@@ -88,6 +94,30 @@ a {
     height: 488px;
     border-radius: 16px;
     background: #fe997b;
+}
+
+.hero__img--sub {
+    padding-top: 20px;
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    width: 186px;
+    height: 244px;
+    border-radius: 16px;
+    background: #faa7ad;
+    border-radius: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.65);
+}
+
+.hero__img--icon {
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+    height: 156px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
+    transform: translateX(50%);
 }
 
 .hero__content {
