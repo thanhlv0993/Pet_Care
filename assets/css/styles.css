@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #fffaf5;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* =============  Common  ============ */
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100vw - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    padding-top: 14px;
+    background-color: var(--primary-color);
+}
+
+.header .nav {
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    gap: 12px;
+}
+
+.nav__item {
+    padding: 12px;
+}
+
+.nav__item a {
+    color: #5e6085;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.btn-sign-up {
+    display: inline-block;
+    width: 117px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #000958;
+    line-height: 50px;
+    text-align: center;
+    color: #000958;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* =============  Hero  ============ */
+
+.hero .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.hero .hero__img {
+    margin-bottom: 77px;
+}
+
+.hero__img--main {
+    width: 388px;
+    height: 488px;
+    border-radius: 16px;
+    background: #fe997b;
+}
+
+.hero__content {
+    padding-left: 68px;
+}
+.hero-heading {
+    color: #000958;
+    font-family: "Sora";
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 76px; /* 115.152% */
+}
+
+.hero-desc {
+    margin-top: 24px;
+    padding-right: 100px;
+    color: #656689;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.hero .action {
+    margin-top: 38px;
+}
+
+.hero .btn {
+    display: inline-block;
+    width: 189px;
+    height: 60px;
+    border-radius: 31px;
+    background: #ff5b2e;
+    box-shadow: 0 13px 26px -8px rgba(255, 91, 46, 0.42);
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero .btn-schedule {
+    margin-left: 24px;
+    color: #000958;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+}
+
+/* // Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
